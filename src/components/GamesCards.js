@@ -1,60 +1,32 @@
 import React, { Component } from "react";
 
-const GamesCards = props => {
-  return (
-    <div className="cards-container">
-      <div className="card game-card">
-        <div className="card-image">
-          <figure className="image is-4by3">
-            <img src="/assets/images/apex-legends.jpg" />
-          </figure>
-        </div>
-        <div className="card-content">
-          <p className="title is-5 game-title">Apex Legends</p>
-          <div className="game-divider" />
-          <p className="title is-5 game-platform">PC</p>
-        </div>
-      </div>
-      <div className="card game-card">
-        <div className="card-image">
-          <figure className="image is-4by3">
-            <img src="/assets/images/apex-legends.jpg" />
-          </figure>
-        </div>
-        <div className="card-content">
-          <div className="content">
-            <p className="title is-5 game-title">Apex Legends</p>
-            <div className="game-divider" />
-            <p className="title is-5 game-platform">PC</p>
+class GamesCards extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
+
+  render() {
+    return (
+      <div className="cards-container">
+        {this.props.gameData.map((game, index) =>
+          <div className="card game-card" key={index}>
+            <div className="card-image">
+              <figure className="image is-4by3">
+                <img src={game.boxArt} alt={game.title} />
+              </figure>
+            </div>
+            <div className="card-content">
+              <p className="title is-5 game-title">{game.title}</p>
+              <div className="game-divider" />
+              <p className="title is-5 game-platform">{game.system}</p>
+            </div>
           </div>
-        </div>
+        )
+      }
       </div>
-      <div className="card game-card">
-        <div className="card-image">
-          <figure className="image is-4by3">
-            <img src="/assets/images/apex-legends.jpg" />
-          </figure>
-        </div>
-        <div className="card-content">
-          <p className="title is-5 game-title">Apex Legends</p>
-          <div className="game-divider" />
-          <p className="title is-5 game-platform">PC</p>
-        </div>
-      </div>
-      <div className="card game-card">
-        <div className="card-image">
-          <figure className="image is-4by3">
-            <img src="/assets/images/apex-legends.jpg" />
-          </figure>
-        </div>
-        <div className="card-content">
-          <p className="title is-5 game-title">Apex Legends</p>
-          <div className="game-divider" />
-          <p className="title is-5 game-platform">PC</p>
-        </div>
-      </div>
-    </div>
-  );
-};
+    );
+  }
+}
 
 export default GamesCards;

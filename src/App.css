@@ -73,7 +73,7 @@ a.navbar-item:hover {
   align-items: flex-start;
   height: 93vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("/assets/images/landing-cover.jpg");
+    url("/assets/images/page-images/landing-cover.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   margin-bottom: 112px;

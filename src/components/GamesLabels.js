@@ -13,9 +13,12 @@ class GamesLabels extends Component {
     return (
       <div className="games-section-labels-container">
         <div className="icon-name-container">
-          <a href="#">
-            <i className="fas fa-desktop game-icon game-icon-active" />
-            <h1 className="jl-red">PC</h1>
+          <a onClick={ () => this.props.setPC() }>
+            <i className={
+                this.props.activeSystem === "pc" ? "fas fa-desktop game-icon game-icon-active" : "fas fa-desktop game-icon"
+              }
+            />
+            <h1 className={ this.props.activeSystem === "pc" ? "jl-red" : "" }>PC</h1>
           </a>
         </div>
         <div className="icon-name-container">
@@ -25,15 +28,21 @@ class GamesLabels extends Component {
           </a>
         </div>
         <div className="icon-name-container">
-          <a href="#">
-            <i className="fab fa-nintendo-switch game-icon" />
-            <h1>Switch</h1>
+          <a onClick={ () => this.props.setSwitch() }>
+            <i className={
+                this.props.activeSystem === "switch" ? "fab fa-nintendo-switch game-icon game-icon-active" : "fab fa-nintendo-switch game-icon"
+              }
+            />
+            <h1 className={ this.props.activeSystem === "switch" ? "jl-red" : "" }>Switch</h1>
           </a>
         </div>
         <div className="icon-name-container icon-margin-zero">
-          <a href="#">
-            <i className="fab fa-playstation game-icon" />
-            <h1>PS4</h1>
+          <a onClick={ () => this.props.setPS4() }>
+            <i className={
+                this.props.activeSystem === "ps4" ? "fab fa-playstation game-icon game-icon-active" : "fab fa-playstation game-icon"
+              }
+            />
+            <h1 className={ this.props.activeSystem === "ps4" ? "jl-red" : "" }>PS4</h1>
           </a>
         </div>
       </div>

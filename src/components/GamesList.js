@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import GamesLabels from "./GamesLabels";
 import GamesCards from "./GamesCards";
+import pcData from "./../data/pcGames";
+import switchData from "./../data/switchGames";
+import ps4Data from "./../data/ps4Games";
 
 class GamesList extends Component {
   constructor(props) {
@@ -12,15 +15,44 @@ class GamesList extends Component {
     /* activeSection will help keep track of 1. what labels need to be red
     and what games need to be displayed */
     this.state = {
-      activeSection: "PC"
+      activeSystem: "pc",
+      gameData: pcData
     };
+  }
+
+  setPC() {
+    this.setState({
+      activeSystem: "pc",
+      gameData: pcData
+    });
+  }
+
+  setPS4() {
+    this.setState({
+      activeSystem: "ps4",
+      gameData: ps4Data
+    });
+  }
+
+  setSwitch() {
+    this.setState({
+      activeSystem: "switch",
+      gameData: switchData
+    });
   }
 
   render() {
     return (
       <React.Fragment>
-        <GamesLabels />
-        <GamesCards />
+        <GamesLabels
+          activeSystem={ this.state.activeSystem }
+          setPC={ () => this.setPC() }
+          setPS4={ () => this.setPS4() }
+          setSwitch={ () => this.setSwitch() }
+        />
+        <GamesCards
+          gameData={ this.state.gameData }
+        />
       </React.Fragment>
     );
   }
