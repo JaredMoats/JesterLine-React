@@ -19,6 +19,10 @@ h1 {
   color: #c1363c;
 }
 
+.jl-yellow {
+  color: #ffdc00;
+}
+
 .is-jl-red {
   background-color: #c1363c;
   border-color: transparent;

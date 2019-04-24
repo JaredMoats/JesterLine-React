@@ -4,7 +4,7 @@ const Landing = () => {
   return (
     <div className="landing-container">
       <h1>
-        West Virginia's <span className="jl-red">first</span> e-Sports
+        West Virginia's <span className="jl-yellow">1st</span> e-Sports
         <br />
         and Virtual Reality Gaming Center
       </h1>
