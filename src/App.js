@@ -13,6 +13,7 @@ class App extends Component {
         <Landing />
         <SectionHeader headerName="Games" />
         <GamesList />
+        <SectionHeader headerName="Prices" />
       </div>
     );
   }

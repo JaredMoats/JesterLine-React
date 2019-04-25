@@ -1,6 +1,7 @@
 export default [{
   title: "Apex Legends",
-  boxArt: "/assets/images/game-card-images/apex-legends.jpg"
+  boxArt: "/assets/images/game-card-images/apex-legends.jpg",
+  system: "PS4"
 }, {
   title: "Call of Duty: Black Ops 4",
   boxArt: "/assets/images/game-card-images/black-ops-4.jpg",

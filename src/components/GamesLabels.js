@@ -1,16 +1,12 @@
 import React, { Component } from "react";
+import "../css/GamesLabels.css";
 
 class GamesLabels extends Component {
-  /* I'm not sure if this will be a stateless
-  or stateful component yet */
   constructor(props) {
     super(props);
-
-    this.state = {};
   }
-
   render() {
-    return (
+    return(
       <div className="games-section-labels-container">
         <div className="icon-name-container">
           <a onClick={ () => this.props.setPC() }>
@@ -48,6 +44,8 @@ class GamesLabels extends Component {
       </div>
     );
   }
+
+
 }
 
 export default GamesLabels;
