@@ -1,0 +1,15 @@
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 112px;
+}
+
+.header-container h1 {
+  color: #ffffff;
+  font-size: 45px;
+  margin-top: 10%;
+}

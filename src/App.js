@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Landing from "./components/Landing";
 import SectionHeader from "./components/SectionHeader";
 import GamesList from "./components/GamesList.js";
+import HowItWorks from "./components/HowItWorks";
 import "./App.css";
 
 class App extends Component {
