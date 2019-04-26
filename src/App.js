@@ -1,9 +1,7 @@
 import React, { Component } from "react";
 import Navbar from "./components/Navbar";
-import Landing from "./components/Landing";
-import SectionHeader from "./components/SectionHeader";
-import GamesList from "./components/GamesList.js";
-import HowItWorks from "./components/HowItWorks";
+import MainView from "./components/MainView";
+
 import "./App.css";
 
 class App extends Component {
@@ -11,10 +9,7 @@ class App extends Component {
     return (
       <div className="app-container">
         <Navbar />
-        <Landing />
-        <SectionHeader headerName="Games" />
-        <GamesList />
-        <SectionHeader headerName="Prices" />
+        <MainView />
       </div>
     );
   }

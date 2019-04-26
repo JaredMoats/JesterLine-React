@@ -50,8 +50,8 @@ class Navbar extends Component {
           }
         >
           <div className="navbar-start">
-            <a className="navbar-item jl-active mobile-show">Home</a>
-            <a className="navbar-item mobile-show">How It Works</a>
+            <NavLink exact activeClassName="jl-active" className="navbar-item mobile-show" to="/">Home</NavLink>
+            <NavLink exact activeClassName="jl-active" className="navbar-item mobile-show" to="/how-it-works">How It Works</NavLink>
             <a className="navbar-item mobile-show">
               Frequently Asked Questions
             </a>
