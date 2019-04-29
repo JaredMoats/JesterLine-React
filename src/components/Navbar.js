@@ -23,7 +23,7 @@ class Navbar extends Component {
     let displayMenuMobile = "navbar-menu is-active";
 
     return (
-      <nav className="navbar" role="navigation" aria-label="main navigation">
+      <nav className="navbar is-fixed-top" role="navigation" aria-label="main navigation">
         <div className="navbar-brand">
           <a className="navbar-item">JesterLine</a>
 
@@ -52,9 +52,9 @@ class Navbar extends Component {
           <div className="navbar-start">
             <NavLink exact activeClassName="jl-active" className="navbar-item mobile-show" to="/">Home</NavLink>
             <NavLink exact activeClassName="jl-active" className="navbar-item mobile-show" to="/how-it-works">How It Works</NavLink>
-            <a className="navbar-item mobile-show">
-              Frequently Asked Questions
-            </a>
+            <NavLink exact activeClassName="jl-active" className="navbar-item mobile-show" to="/faq">
+              FAQ
+            </NavLink>
           </div>
         </div>
       </nav>

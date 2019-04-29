@@ -1,14 +1,14 @@
 import React from 'react';
 import StandardLanding from "./StandardLanding";
 import StandardPageView from "./StandardPageView";
-import pageContent from "./../data/howItWorksText";
+import pageContent from "./../data/faqText";
 
-const HowItWorks = () => {
+const Faq = () => {
     return(
       <div className="standard-page-container">
         <StandardLanding
-          imageURL="/assets/images/page-images/how-it-works.jpg"
-          headerTitle="How It Works"
+          imageURL="/assets/images/page-images/faq.jpg"
+          headerTitle="Frequently Asked Questions"
         />
         <StandardPageView
           pageContent={ pageContent }
@@ -17,4 +17,4 @@ const HowItWorks = () => {
     );
 }
 
-export default HowItWorks;
+export default Faq;
