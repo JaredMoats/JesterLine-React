@@ -12,14 +12,13 @@ const StandardPageView = props => {
         props.pageContent.map((paragraph, key) =>
         <>
           <StandardHeading
-            pageContent={ paragraph.pageContent }
             headingTitle ={ paragraph.heading }
             key={ key }
           />
           <StandardParagraph
-          text={ paragraph.text }
-          key={ key }
-            />
+            text={ paragraph.text }
+            key={ key }
+          />
         </>
         )
       }
