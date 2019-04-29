@@ -29,6 +29,12 @@
   color: #c1363c;
 }
 
+/* Solves an h1 specificity problem with the color on hover */
+.icon-name-container a:hover h1 {
+  transition: 0.2s;
+  color: #c1363c;
+}
+
 .icon-margin-zero {
   margin-right: 0px;
 }

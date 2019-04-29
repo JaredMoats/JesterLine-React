@@ -1,15 +1,15 @@
 import React from 'react';
 import Landing from "./Landing";
 import SectionHeading from "./SectionHeading";
-import GamesList from "./GamesList.js";
+import GamesList from "./GamesList";
+import Prices from "./Prices";
 
 const Home = () => {
   return(
     <div>
       <Landing />
-      <SectionHeading headerName="Games" />
       <GamesList />
-      <SectionHeading headerName="Prices" />
+      <Prices />
     </div>
   );
 }

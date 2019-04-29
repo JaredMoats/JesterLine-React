@@ -1,6 +1,7 @@
 import React from 'react';
 import StandardLanding from "./StandardLanding";
 import StandardPageView from "./StandardPageView";
+import Prices from "./Prices";
 import pageContent from "./../data/howItWorksText";
 
 const HowItWorks = () => {
@@ -13,6 +14,7 @@ const HowItWorks = () => {
         <StandardPageView
           pageContent={ pageContent }
         />
+        <Prices />
       </div>
     );
 }

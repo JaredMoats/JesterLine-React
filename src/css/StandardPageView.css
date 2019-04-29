@@ -4,7 +4,6 @@
   align-items: start;
   margin-left: 25%;
   margin-right: 25%;
-  margin-bottom: 200px;
 }
 
 .standard-page-view-container h1 {
@@ -17,4 +16,8 @@
   font-size: 25px;
   margin-bottom: 40px;
   line-height: 50px;
+}
+
+p:last-of-type {
+  margin-bottom: 0px;
 }

@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import GamesLabels from "./GamesLabels";
 import GamesCards from "./GamesCards";
+import SectionHeading from "./SectionHeading";
+import "./../css/GamesList.css";
 import pcData from "./../data/pcGames";
 import switchData from "./../data/switchGames";
 import ps4Data from "./../data/ps4Games";
@@ -44,6 +46,8 @@ class GamesList extends Component {
   render() {
     return (
       <React.Fragment>
+      <div className="games-section-container">
+        <SectionHeading headerName="Games" />
         <GamesLabels
           activeSystem={ this.state.activeSystem }
           setPC={ () => this.setPC() }
@@ -53,6 +57,7 @@ class GamesList extends Component {
         <GamesCards
           gameData={ this.state.gameData }
         />
+      </div>
       </React.Fragment>
     );
   }
