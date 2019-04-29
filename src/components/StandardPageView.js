@@ -1,15 +1,28 @@
 import React from 'react';
 import StandardHeading from './StandardHeading';
+import StandardParagraph from './StandardParagraph';
 import './../css/StandardPageView.css';
 
-const StandardPageView = () => {
+
+
+const StandardPageView = props => {
   return(
     <div className="standard-page-view-container">
-      <StandardHeading
-        headingTitle = "One of a Kind"
-      />
-      <p>There’s nothing like JesterLine in West Virginia, so we figured
-you might have questions about how your time here will work. </p>
+      {
+        props.pageContent.map((paragraph, key) =>
+        <>
+          <StandardHeading
+            pageContent={ paragraph.pageContent }
+            headingTitle ={ paragraph.heading }
+            key={ key }
+          />
+          <StandardParagraph
+          text={ paragraph.text }
+          key={ key }
+            />
+        </>
+        )
+      }
     </div>
   );
 }

@@ -1,25 +1,20 @@
 import React, { Component } from 'react';
 import StandardLanding from "./StandardLanding";
 import StandardPageView from "./StandardPageView";
+import pageContent from "./../data/howItWorksText";
 
-class HowItWorks extends Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {};
-  }
-
-  render() {
+const HowItWorks = () => {
     return(
       <div className="standard-page-container">
         <StandardLanding
           imageURL="/assets/images/page-images/how-it-works.jpg"
           headerTitle="How It Works"
         />
-        <StandardPageView />
+        <StandardPageView
+          pageContent={ pageContent }
+        />
       </div>
     );
-  }
 }
 
 export default HowItWorks;
