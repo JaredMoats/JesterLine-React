@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import StandardHeader from "./StandardHeader";
+import StandardLanding from "./StandardLanding";
+import StandardPageView from "./StandardPageView";
 
 class HowItWorks extends Component {
   constructor(props) {
@@ -11,10 +12,11 @@ class HowItWorks extends Component {
   render() {
     return(
       <div className="standard-page-container">
-        <StandardHeader
+        <StandardLanding
           imageURL="/assets/images/page-images/how-it-works.jpg"
           headerTitle="How It Works"
         />
+        <StandardPageView />
       </div>
     );
   }
