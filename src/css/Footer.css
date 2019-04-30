@@ -28,7 +28,9 @@
 }
 
 .footer-container a:hover {
-  color: white;
+  /* A lighter jl-red to show up better against the black background */
+  color: #ff5e65;
+  transition: 0.2s;
 }
 
 .social-icons {
