@@ -1,6 +1,7 @@
 import React from 'react';
 import StandardLanding from "./StandardLanding";
 import StandardPageView from "./StandardPageView";
+import Footer from "./Footer";
 import pageContent from "./../data/faqText";
 
 const Faq = () => {
@@ -13,6 +14,7 @@ const Faq = () => {
         <StandardPageView
           pageContent={ pageContent }
         />
+        <Footer />
       </div>
     );
 }

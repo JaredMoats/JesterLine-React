@@ -2,6 +2,7 @@ import React from 'react';
 import StandardLanding from "./StandardLanding";
 import StandardPageView from "./StandardPageView";
 import Prices from "./Prices";
+import Footer from "./Footer";
 import pageContent from "./../data/howItWorksText";
 
 const HowItWorks = () => {
@@ -15,6 +16,7 @@ const HowItWorks = () => {
           pageContent={ pageContent }
         />
         <Prices />
+        <Footer />
       </div>
     );
 }
