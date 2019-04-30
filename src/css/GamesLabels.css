@@ -11,6 +11,7 @@
   flex-direction: column;
   align-items: center;
   margin-right: 183px;
+  margin-bottom: 30px;
 }
 
 .icon-name-container h1 {
@@ -48,6 +49,10 @@
   color: #c1363c;
 }
 
+@media screen and (max-width: 888px) {
+
+}
+
 /* End GamesList section styles */
 
 @media screen and (max-width: 1087px) {
@@ -57,18 +62,22 @@
   }
 
   .icon-name-container {
-    margin-right: 0px;
+    margin-right: 10%;
   }
 
 }
 
 @media screen and (max-width: 500px) {
   .game-icon {
-    font-size: 85px;
+    font-size: 60px;
   }
 
   .icon-name-container h1 {
-    font-size: 27px;
+    font-size: 23px;
+  }
+
+  .game-icon {
+    margin-bottom: 40px;
   }
 
 }
