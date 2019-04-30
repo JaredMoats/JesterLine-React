@@ -1,4 +1,5 @@
 /* Global styles */
+/* The smallest viewport I'm going to support is 320px wide */
 
 html {
   height: 100%;

@@ -41,9 +41,20 @@
 /* End landing section styles */
 
 @media screen and (max-width: 832px) {
+
+  .landing-container {
+    justify-content: center;
+    align-items: center;
+  }
+
   .landing-container h1 {
     font-size: 40px;
-    margin-top: 15%;
+    margin-top: 0;
+    margin-left: 5%;
+  }
+
+  .button-container {
+    margin-left: 0;
   }
 
   .button-container a {
@@ -72,7 +83,10 @@
 @media screen and (max-width: 500px) {
   .landing-container h1 {
     font-size: 25px;
-    margin-top: 25%;
+  }
+
+  .button-container {
+    margin-left: 0;
   }
 
   .button-container a {
