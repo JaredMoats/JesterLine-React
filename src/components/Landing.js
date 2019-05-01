@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-scroll";
 import "../css/Landing.css";
 
 const Landing = () => {
@@ -9,8 +10,26 @@ const Landing = () => {
         <br /> and Virtual Reality Gaming Center
       </h1>
       <div className="button-container">
-        <a className="button is-jl-red">Games</a>
-        <a className="button is-jl-red">Prices</a>
+        <Link
+          className="button is-jl-red"
+          to="games"
+          spy={true}
+          smooth={true}
+          offset={-90}
+          duration={500}
+        >
+          Games
+        </Link>
+        <Link
+          className="button is-jl-red"
+          to="prices"
+          spy={true}
+          smooth={true}
+          offset={-90}
+          duration={1000}
+        >
+          Prices
+        </Link>
       </div>
     </div>
   );

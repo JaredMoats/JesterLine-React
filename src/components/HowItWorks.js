@@ -11,6 +11,7 @@ const HowItWorks = () => {
         <StandardLanding
           imageURL="/assets/images/page-images/how-it-works.jpg"
           headerTitle="How It Works"
+          landingId="how-it-works"
         />
         <StandardPageView
           pageContent={ pageContent }

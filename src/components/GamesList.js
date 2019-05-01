@@ -47,7 +47,7 @@ class GamesList extends Component {
     return (
       <React.Fragment>
       <div className="games-section-container">
-        <SectionHeading headerName="Games" />
+        <SectionHeading headerName="Games" sectionId="games"/>
         <GamesLabels
           activeSystem={ this.state.activeSystem }
           setPC={ () => this.setPC() }

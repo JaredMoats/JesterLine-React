@@ -10,6 +10,7 @@ const Faq = () => {
         <StandardLanding
           imageURL="/assets/images/page-images/faq.jpg"
           headerTitle="Frequently Asked Questions"
+          landingId="faq"
         />
         <StandardPageView
           pageContent={ pageContent }

@@ -5,7 +5,7 @@ import "./../css/Prices.css";
 const Prices = () => {
   return (
     <div className="prices-section-container">
-      <SectionHeading headerName="Prices" />
+      <SectionHeading headerName="Prices" sectionId="prices"/>
       <div className="price-clusters-container">
         <div className="price-cluster">
           <h2>e-Sports</h2>

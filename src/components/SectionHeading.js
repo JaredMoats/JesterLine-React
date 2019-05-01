@@ -2,7 +2,7 @@ import React from "react";
 
 const SectionHeading = props => {
   return (
-      <h1 className="section-header">{props.headerName}</h1>
+      <h1 className="section-header" id={ props.sectionId }>{props.headerName}</h1>
   );
 };
 

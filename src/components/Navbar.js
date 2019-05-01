@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import { NavLink } from 'react-router-dom';
+import { NavLink } from "react-router-dom";
+import { Link } from "react-scroll";
 import "../css/Navbar.css";
 
 class Navbar extends Component {
@@ -23,9 +24,13 @@ class Navbar extends Component {
     let displayMenuMobile = "navbar-menu is-active";
 
     return (
-      <nav className="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+      <nav
+        className="navbar is-fixed-top"
+        role="navigation"
+        aria-label="main navigation"
+      >
         <div className="navbar-brand">
-          <a className="navbar-item">JesterLine</a>
+          <a className="navbar-item jl-brand">JesterLine</a>
 
           <a
             role="button"
@@ -50,9 +55,33 @@ class Navbar extends Component {
           }
         >
           <div className="navbar-start">
-            <NavLink exact activeClassName="jl-active" className="navbar-item mobile-show" to="/">Home</NavLink>
-            <NavLink exact activeClassName="jl-active" className="navbar-item mobile-show" to="/how-it-works">How It Works</NavLink>
-            <NavLink exact activeClassName="jl-active" className="navbar-item mobile-show" to="/faq">
+            <NavLink
+              onClick={() => this.onClickBurger()}
+              exact
+              className="navbar-item mobile-show"
+              activeClassName="jl-active"
+              to="/"
+            >
+              Home
+            </NavLink>
+
+            <NavLink
+              onClick={() => this.onClickBurger()}
+              exact
+              className="navbar-item mobile-show"
+              activeClassName="jl-active"
+              to="/how-it-works"
+            >
+              How It Works
+            </NavLink>
+
+            <NavLink
+              onClick={() => this.onClickBurger()}
+              exact
+              className="navbar-item mobile-show"
+              activeClassName="jl-active"
+              to="/faq"
+            >
               FAQ
             </NavLink>
           </div>
