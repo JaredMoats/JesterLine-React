@@ -47,7 +47,52 @@
   margin-top: 9px;
 }
 
+@media screen and (max-width: 1282px) {
+  .cards-container {
+    margin-left: 9.9%;
+    margin-right: 9.9%;
+  }
+
+  .card-content {
+    padding-top: 0.99rem;
+  }
+
+  .card-content p {
+    font-size: 0.825rem;
+  }
+
+  .game-card {
+    height: 305.58px;
+    width: 186.78px;
+  }
+
+  .game-divider {
+    margin-bottom: 11.88px;
+  }
+
+  p.title.game-title {
+    margin-bottom: 5.94px;
+  }
+
+  .game-platform {
+    margin-top: 5.94px;
+  }
+
+  .card-image {
+    height: 200.64px;
+  }
+
+  .image {
+    height: 200.64px;
+  }
+}
+
 @media screen and (max-width: 870px) {
+  .cards-container {
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+  }
+
   .card-content {
     padding-top: 0.75rem;
   }
