@@ -67,6 +67,22 @@
 
 }
 
+@media screen and (max-width: 870px) {
+  .game-icon {
+    font-size: 80px;
+  }
+
+  .icon-name-container {
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+
+  .icon-name-container h1 {
+    font-size: 27px;
+  }
+
+}
+
 @media screen and (max-width: 500px) {
   .game-icon {
     font-size: 60px;
