@@ -58,7 +58,7 @@
   }
 
   .card-content p {
-    font-size: 0.825rem;
+    font-size: 1.1rem;
   }
 
   .game-card {
@@ -98,7 +98,7 @@
   }
 
   .card-content p {
-    font-size: 0.625rem;
+    font-size: 0.825rem;
   }
 
   .game-card {
@@ -126,4 +126,11 @@
     height: 152px;
   }
 
+}
+
+@media screen and (max-width: 370px) {
+  .cards-container {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
