@@ -49,3 +49,9 @@ h2 {
 .section-header {
   margin-bottom: 97px;
 }
+
+@media screen and (max-width: 500px) {
+  h1 {
+    font-size: 30px;
+  }
+}

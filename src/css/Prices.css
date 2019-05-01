@@ -50,3 +50,54 @@
   height: 222px;
   width: 222px;
 }
+
+@media screen and (max-width: 1421px) {
+  .prices-section-container {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+  .price-cluster h2 {
+    font-size: 25px;
+  }
+
+  .price-cluster h3 {
+    font-size: 20px;
+  }
+
+  .price-graphic {
+    height: 150px;
+    width: 150px;
+  }
+
+}
+
+@media screen and (max-width: 1171px) {
+  .prices-section-container {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 1125px) {
+  .price-clusters-container {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .price-cluster h2 {
+    font-size: 20px;
+  }
+
+  .price-cluster h3 {
+    font-size: 15px;
+  }
+
+  .price-graphic {
+    height: 125px;
+    width: 125px;
+  }
+
+}
