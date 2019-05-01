@@ -4,6 +4,18 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.card {
+  background-color: #c1363c;
+  box-shadow: 2px 2px 5px 0px #272727;
+}
+
+.card-content p {
+  color: white;
+  font-size: 1.25rem;
 }
 
 .card-image {
@@ -27,7 +39,7 @@
 
 .game-divider {
   width: 25%;
-  border-bottom: 3px solid #c1363c;
+  border-bottom: 3px solid #272727;
   margin-bottom: 18px;
 }
 
@@ -35,4 +47,38 @@
   margin-top: 9px;
 }
 
-/* End GamesCards styles */
+@media screen and (max-width: 870px) {
+  .card-content {
+    padding-top: 0.75rem;
+  }
+
+  .card-content p {
+    font-size: 0.625rem;
+  }
+
+  .game-card {
+    height: 231px;
+    width: 141px;
+  }
+
+  .game-divider {
+    margin-bottom: 9px;
+  }
+
+  p.title.game-title {
+    margin-bottom: 4.5px;
+  }
+
+  .game-platform {
+    margin-top: 4.5px;
+  }
+
+  .card-image {
+    height: 152px;
+  }
+
+  .image {
+    height: 152px;
+  }
+
+}

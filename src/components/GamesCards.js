@@ -12,9 +12,9 @@ const GamesCards = props => {
             </figure>
           </div>
           <div className="card-content">
-            <p className="title is-5 game-title">{game.title}</p>
+            <p className="title game-title">{game.title}</p>
             <div className="game-divider" />
-            <p className="title is-5 game-platform">{game.system}</p>
+            <p className="title game-platform">{game.system}</p>
           </div>
         </div>
       )
