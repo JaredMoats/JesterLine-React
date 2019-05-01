@@ -7,17 +7,40 @@
 }
 
 .standard-page-view-container h1 {
-  font-size: 35px;
+  font-size: 30px;
   color: #17122C;
   margin-bottom: 60px;
 }
 
 .standard-page-view-container p {
-  font-size: 25px;
+  font-size: 20px;
   margin-bottom: 40px;
-  line-height: 50px;
+  line-height: 40px;
 }
 
 p:last-of-type {
   margin-bottom: 0px;
+}
+
+@media screen and (max-width: 1500px) {
+  .standard-page-view-container {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .standard-page-view-container {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .standard-page-view-container h1 {
+    font-size: 25px;
+  }
+
+  .standard-page-view-container p {
+    font-size: 18px;
+  }
+
 }
