@@ -54,6 +54,9 @@
   }
 
   .card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
     padding-top: 0.99rem;
   }
 
@@ -67,7 +70,8 @@
   }
 
   .game-divider {
-    margin-bottom: 11.88px;
+    margin-top: 5.5px;
+    margin-bottom: 5.5px;
   }
 
   p.title.game-title {
@@ -102,12 +106,13 @@
   }
 
   .game-card {
-    height: 231px;
+    height: 245px;
     width: 141px;
   }
 
   .game-divider {
-    margin-bottom: 9px;
+    margin-top: 4.5px;
+    margin-bottom: 4.5px;
   }
 
   p.title.game-title {
@@ -116,6 +121,7 @@
 
   .game-platform {
     margin-top: 4.5px;
+    margin-bottom: 3px;
   }
 
   .card-image {
