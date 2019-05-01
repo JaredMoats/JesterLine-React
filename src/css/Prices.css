@@ -3,9 +3,9 @@
   align-items: center;
   flex-direction: column;
   flex-wrap: wrap;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 80px;
+  padding: 80px 10% 50px 10%;
+  margin-top: 60px;
+  background-color: #E3E4E9;
 }
 
 .price-clusters-container {
@@ -53,8 +53,8 @@
 
 @media screen and (max-width: 1421px) {
   .prices-section-container {
-    margin-left: 2%;
-    margin-right: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
   }
 
   .price-cluster h2 {
@@ -74,8 +74,8 @@
 
 @media screen and (max-width: 1171px) {
   .prices-section-container {
-    margin-left: 0;
-    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
