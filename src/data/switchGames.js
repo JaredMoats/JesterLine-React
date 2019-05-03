@@ -1,4 +1,16 @@
 export default [{
+  title: "Donky Kong",
+  boxArt: "/assets/images/game-card-images/donkey-kong.jpg",
+  system: "Switch"
+}, {
+  title: "Double Dragon 2",
+  boxArt: "/assets/images/game-card-images/double-dragon-2.png",
+  system: "Switch"
+}, {
+  title: "Excite Bike",
+  boxArt: "/assets/images/game-card-images/excite-bike.png",
+  system: "Switch"
+}, {
   title: "Fortnite",
   boxArt: "/assets/images/game-card-images/fortnite.jpg",
   system: "Switch"
