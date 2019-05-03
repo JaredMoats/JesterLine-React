@@ -6,6 +6,7 @@ import "./../css/GamesList.css";
 import pcData from "./../data/pcGames";
 import switchData from "./../data/switchGames";
 import ps4Data from "./../data/ps4Games";
+import vrData from "./../data/vrGames";
 
 class GamesList extends Component {
   constructor(props) {
@@ -43,6 +44,13 @@ class GamesList extends Component {
     });
   }
 
+  setVR() {
+    this.setState({
+      activeSystem: "vr",
+      gameData: vrData
+    });
+  }
+
   render() {
     return (
       <React.Fragment>
@@ -53,6 +61,7 @@ class GamesList extends Component {
           setPC={ () => this.setPC() }
           setPS4={ () => this.setPS4() }
           setSwitch={ () => this.setSwitch() }
+          setVR={ () => this.setVR() }
         />
         <GamesCards
           gameData={ this.state.gameData }
