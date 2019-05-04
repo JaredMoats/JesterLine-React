@@ -148,22 +148,22 @@ export default [{
   system: "VR"
 }, {
   title: "theBlu",
-  boxArt: "/assets/images/game-card-images/apex-legends.jpg",
+  boxArt: "/assets/images/game-card-images/theBlu.jpg",
   system: "VR"
 }, {
   title: "Tilt Brush",
-  boxArt: "/assets/images/game-card-images/apex-legends.jpg",
+  boxArt: "/assets/images/game-card-images/tilt-brush.jpg",
   system: "VR"
 }, {
   title: "Trials on Tatooine",
-  boxArt: "/assets/images/game-card-images/apex-legends.jpg",
+  boxArt: "/assets/images/game-card-images/trials-tatooine.png",
   system: "VR"
 }, {
   title: "Waltz of the Wizards",
-  boxArt: "/assets/images/game-card-images/apex-legends.jpg",
+  boxArt: "/assets/images/game-card-images/waltz-of-the-wizards.jpg",
   system: "VR"
 }, {
   title: "Zombie Training Simulator",
-  boxArt: "/assets/images/game-card-images/apex-legends.jpg",
+  boxArt: "/assets/images/game-card-images/zombie-training-simulator.jpg",
   system: "VR"
 }];

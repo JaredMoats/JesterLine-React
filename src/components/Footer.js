@@ -12,8 +12,8 @@ const Footer = () => {
           <a href="https://www.facebook.com/JesterLineGT/"><i className="fab fa-facebook-square"></i></a>
           <a href="https://www.instagram.com/jesterlinegt/"><i className="fab fa-instagram"></i></a>
           <a href="https://twitter.com/JesterLineGT"><i className="fab fa-twitter-square"></i></a>
-          </span>
-        </div>
+        </span>
+      </div>
       <div className="hours">
         <h1>Hours (During School Days)</h1>
         <p>Monday - Friday: 3:00p.m. - 10:00 p.m.</p>

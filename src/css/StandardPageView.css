@@ -18,7 +18,7 @@
   line-height: 40px;
 }
 
-p:last-of-type {
+.standard-page-view-container p:last-of-type {
   margin-bottom: 100px;
 }
 

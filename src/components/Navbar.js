@@ -85,6 +85,15 @@ class Navbar extends Component {
               FAQ
             </NavLink>
           </div>
+          <div className="navbar-end">
+            <div className="navbar-item">
+              <span className="nav-social-icons navbar-item mobile-show">
+                <a href="https://www.facebook.com/JesterLineGT/"><i className="fab fa-facebook-square"></i></a>
+                <a href="https://www.instagram.com/jesterlinegt/"><i className="fab fa-instagram"></i></a>
+                <a href="https://twitter.com/JesterLineGT"><i className="fab fa-twitter-square"></i></a>
+              </span>
+            </div>
+          </div>
         </div>
       </nav>
     );
