@@ -20,7 +20,7 @@ class GamesLabels extends Component {
         <div className="icon-name-container">
           <a onClick={ () => this.props.setVR() }>
             <i className={ this.props.activeSystem === "vr" ? "fas fa-user-astronaut game-icon game-icon-active" : "fas fa-user-astronaut game-icon" } />
-            <h1>VR</h1>
+            <h1 className={ this.props.activeSystem === "vr" ? "jl-red" : "" }>VR</h1>
           </a>
         </div>
         <div className="icon-name-container">

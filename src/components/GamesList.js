@@ -19,7 +19,7 @@ class GamesList extends Component {
     and what games need to be displayed */
     this.state = {
       activeSystem: "pc",
-      gameData: pcData
+      gameData: vrData
     };
   }
 

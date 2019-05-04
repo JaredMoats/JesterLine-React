@@ -30,7 +30,7 @@ class Navbar extends Component {
         aria-label="main navigation"
       >
         <div className="navbar-brand">
-          <a className="navbar-item jl-brand">JesterLine</a>
+          <a className="navbar-item logo-dimensions"><img src="/assets/images/logo/logo.png" className="jl-logo"/></a>
 
           <a
             role="button"

@@ -1,7 +1,16 @@
 /* Navbar styles */
 .navbar {
   background-color: #272727;
-  height: 78px;
+  height: 90px;
+}
+
+.navbar-item img {
+  max-height: 200px;
+  max-width: 200px;
+}
+
+.navbar-brand {
+  margin-right: 50px;
 }
 
 .navbar-item {
@@ -27,6 +36,14 @@ a.navbar-item:hover {
   /* Navbar styles. */
   .navbar {
     height: 50px;
+  }
+
+  .navbar-item img {
+    max-height: 50px;
+  }
+
+  .logo-dimensions {
+    padding-top: 0;
   }
 
   /* Remove space between the navbar and the active menu */
