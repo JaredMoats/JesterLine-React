@@ -112,43 +112,39 @@ export default [{
   system: "VR"
 }, {
   title: "Snow Fortress",
-  boxArt: "/assets/images/game-card-images/apex-legends.jpg",
+  boxArt: "/assets/images/game-card-images/snow-fortress.jpg",
   system: "VR"
 }, {
   title: "Space Junkies",
-  boxArt: "/assets/images/game-card-images/apex-legends.jpg",
+  boxArt: "/assets/images/game-card-images/space-junkies.jpg",
   system: "VR"
 }, {
   title: "Space Pirate Trainer",
-  boxArt: "/assets/images/game-card-images/apex-legends.jpg",
-  system: "VR"
-}, {
-  title: "Spooky Night",
-  boxArt: "/assets/images/game-card-images/apex-legends.jpg",
+  boxArt: "/assets/images/game-card-images/space-pirate-trainer.png",
   system: "VR"
 }, {
   title: "SportsBar",
-  boxArt: "/assets/images/game-card-images/apex-legends.jpg",
+  boxArt: "/assets/images/game-card-images/sports-bar-vr.jpg",
   system: "VR"
 }, {
   title: "Superhot",
-  boxArt: "/assets/images/game-card-images/apex-legends.jpg",
+  boxArt: "/assets/images/game-card-images/superhot-vr.jpg",
   system: "VR"
 }, {
   title: "The Bellows",
-  boxArt: "/assets/images/game-card-images/apex-legends.jpg",
+  boxArt: "/assets/images/game-card-images/the-bellows-vr.png",
   system: "VR"
 }, {
   title: "The Brookhaven Experiment",
-  boxArt: "/assets/images/game-card-images/apex-legends.jpg",
+  boxArt: "/assets/images/game-card-images/the-brookhaven-experiment.png",
   system: "VR"
 }, {
   title: "The Lab",
-  boxArt: "/assets/images/game-card-images/apex-legends.jpg",
+  boxArt: "/assets/images/game-card-images/the-lab.png",
   system: "VR"
 }, {
   title: "The Price of Freedom",
-  boxArt: "/assets/images/game-card-images/apex-legends.jpg",
+  boxArt: "/assets/images/game-card-images/price-of-freedom.png",
   system: "VR"
 }, {
   title: "theBlu",

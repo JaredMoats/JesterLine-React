@@ -7,7 +7,7 @@ const Landing = () => {
     <div className="landing-container">
       <h1>
         West Virginia's <span className="jl-yellow">first</span> eSports
-        <br /> and Virtual Reality Gaming Center
+        <br /> and Virtual Reality <br />Gaming Center
       </h1>
       <div className="button-container">
         <Link

@@ -30,7 +30,7 @@ class Navbar extends Component {
         aria-label="main navigation"
       >
         <div className="navbar-brand">
-          <a className="navbar-item logo-dimensions"><img src="/assets/images/logo/logo.png" className="jl-logo"/></a>
+          <NavLink exact to="/" className="navbar-item logo-dimensions"><img src="/assets/images/logo/logo.png" className="jl-logo"/></NavLink>
 
           <a
             role="button"
