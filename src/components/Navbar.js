@@ -13,8 +13,15 @@ class Navbar extends Component {
   }
 
   /* Helps keep track of if the hamburger menu is triggered or not */
-  onClickBurger() {
+  onClickBurgerTop() {
     /* Need to add the active class on the hamburger */
+    if (!this.state.hamburgerClicked) this.setState({ hamburgerClicked: true });
+    else this.setState({ hamburgerClicked: false });
+
+    window.scrollTo(0, 0);
+  }
+
+  onClickBurger() {
     if (!this.state.hamburgerClicked) this.setState({ hamburgerClicked: true });
     else this.setState({ hamburgerClicked: false });
   }
@@ -56,7 +63,7 @@ class Navbar extends Component {
         >
           <div className="navbar-start">
             <NavLink
-              onClick={() => this.onClickBurger()}
+              onClick={() => this.onClickBurgerTop()}
               exact
               className="navbar-item mobile-show"
               activeClassName="jl-active"
@@ -66,7 +73,7 @@ class Navbar extends Component {
             </NavLink>
 
             <NavLink
-              onClick={() => this.onClickBurger()}
+              onClick={() => this.onClickBurgerTop()}
               exact
               className="navbar-item mobile-show"
               activeClassName="jl-active"
@@ -76,7 +83,7 @@ class Navbar extends Component {
             </NavLink>
 
             <NavLink
-              onClick={() => this.onClickBurger()}
+              onClick={() => this.onClickBurgerTop()}
               exact
               className="navbar-item mobile-show"
               activeClassName="jl-active"
