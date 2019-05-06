@@ -56,6 +56,9 @@
 /* End GamesList section styles */
 
 @media screen and (max-width: 1087px) {
+  .games-section-container > h1 {
+    padding-right: 3%;
+  }
 
   .games-section-labels-container {
     justify-content: space-around;
@@ -68,6 +71,11 @@
 }
 
 @media screen and (max-width: 870px) {
+  .games-section-container > h1 {
+
+    padding-right: 0;
+  }
+
   .game-icon {
     font-size: 80px;
   }
